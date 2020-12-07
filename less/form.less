@@ -1,0 +1,196 @@
+.form {
+  width: 1210px;
+  height: 1253px;
+  background: var(--basic-grey) url("../img/bg.svg") no-repeat;
+  background-position: center;
+  background-position-y: 265px;
+  margin: auto;
+  margin-top: -213px;
+  padding-top: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.form__title {
+  font-family: Museo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 3px;
+}
+
+.form__title-bold {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.progress-bar {
+  width: 582px;
+  height: 36px;
+  background-color: var(--basic-white);
+  border-radius: 80px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.progress-bar__scale {
+  width: 306px;
+  height: 27px;
+  background-color: var(--special-orange);
+  border-radius: 80px;
+  text-align: center;
+  padding-top: 7px;
+  padding-left: -7px;
+  font-family: Museo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background: -webkit-linear-gradient(
+    135deg,
+    var(--special-orange) 1.4%,
+    #ff3f04 1.4%,
+    #ff3f04 4.6%,
+    var(--special-orange) 4.6%,
+    var(--special-orange) 9.4%,
+    #ff3f04 9.4%,
+    #ff3f04 12.3%,
+    var(--special-orange) 12.3%,
+    var(--special-orange) 17.4%,
+    #ff3f04 17.4%,
+    #ff3f04 20.3%,
+    var(--special-orange) 20.3%,
+    var(--special-orange) 25.4%,
+    #ff3f04 25.4%,
+    #ff3f04 28.6%,
+    var(--special-orange) 28.6%,
+    var(--special-orange) 33.4%,
+    #ff3f04 33.4%,
+    #ff3f04 36.6%,
+    var(--special-orange) 36.6%,
+    var(--special-orange) 40.4%,
+    #ff3f04 40.4%,
+    #ff3f04 43.6%,
+    var(--special-orange) 43.6%,
+    var(--special-orange) 47.4%,
+    #ff3f04 47.4%,
+    #ff3f04 50.6%,
+    var(--special-orange) 50.6%,
+    var(--special-orange) 54.4%,
+    #ff3f04 54.4%,
+    #ff3f04 57.6%,
+    var(--special-orange) 57.6%,
+    var(--special-orange) 61.4%,
+    #ff3f04 61.4%,
+    #ff3f04 64.6%,
+    var(--special-orange) 64.6%,
+    var(--special-orange) 68.4%,
+    #ff3f04 68.4%,
+    #ff3f04 71.6%,
+    var(--special-orange) 71.6%,
+    var(--special-orange) 75.4%,
+    #ff3f04 75.4%,
+    #ff3f04 78.6%,
+    var(--special-orange) 78.6%,
+    var(--special-orange) 83.4%,
+    #ff3f04 83.4%,
+    #ff3f04 87.6%,
+    var(--special-orange) 87.6%,
+    var(--special-orange) 91.4%,
+    #ff3f04 91.4%,
+    #ff3f04 94.6%,
+    var(--special-orange) 94.6%
+  );
+  animation: bar-animation 6s linear infinite;
+  -webkit-animation: bar-animation 6s linear infinite;
+}
+
+@-webkit-keyframes bar-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 306px 100%;
+  }
+}
+
+.form__title1 {
+  font-family: Museo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 125%;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.form__section {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__section-arrow {
+  background: url("../img/arrow1.svg") no-repeat;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -63px;
+  width: 130px;
+  height: 110px;
+}
+
+.result {
+  margin-top: 180px;
+}
+
+.result__img {
+  position: absolute;
+  margin-left: 523px;
+  margin-top: -145px;
+}
+
+.result__title {
+  text-align: center;
+  font-family: Museo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: -53px;
+}
+
+.result__description {
+  text-align: center;
+  font-family: Museo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: -50px;
+  margin-top: -19px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 70px;
+  margin-top: 105px;
+  font-family: Museo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--special-grey);
+  text-transform: uppercase;
+}
+
+.footer__site {
+  text-transform: none;
+  margin-top: -10px;
+}
